@@ -1,0 +1,9 @@
+POST http://localhost:3050/api/data
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "test",
+  "age": 30,
+  "enable": true
+}
