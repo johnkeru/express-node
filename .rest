@@ -1,9 +1,4 @@
-POST http://localhost:3050/api/data
-Content-Type: application/json
+GET http://localhost:3050/api/users
 
-{
-  "name": "John Doe",
-  "email": "test",
-  "age": 30,
-  "enable": true
-}
+###
+DELETE http://localhost:3050/api/users/123/keru
